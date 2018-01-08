@@ -14,9 +14,9 @@ function whileLoop(n) {
     }
     return 'done'
 }
- 
+
 function maybeTrue() {
   // Returns a random number between 0 (inclusive) and 1 (exclusive)
   return Math.random() >= 0.5
-  
+
 }
