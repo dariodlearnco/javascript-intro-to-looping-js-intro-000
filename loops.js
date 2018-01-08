@@ -25,6 +25,6 @@ function doWhileLoop(array) {
     // removes elements from `array` until `array` is empty or until `maybeTrue()` returns `false
     do {
         array.pop()
-    } while (maybeTrue())
+    } while ( array.lenght > 0 && maybeTrue())
     return array
 }
