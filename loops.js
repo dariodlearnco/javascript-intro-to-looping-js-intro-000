@@ -5,3 +5,13 @@ function forLoop(array) {
     }
     return array
 }
+
+function whileLoop(n) {
+    var i = n
+    while ( i > 0 ) {
+        console.log(`${i}...`)
+        i--
+    }
+    return 'done'
+}
+ 
